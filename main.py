@@ -1,11 +1,11 @@
-def say_hello_world():
+def say_hello_world() -> None:
     """
     Print a hello world greeting to the console.
     """
     print("Hello, World!")
 
 
-def say_hello_to(name):
+def say_hello_to(name: str) -> None:
     """
     Print a personalized greeting to the console.
 
@@ -15,14 +15,14 @@ def say_hello_to(name):
     print(f"Hello, {name}!")
 
 
-def say_goodbye():
+def say_goodbye() -> None:
     """
     Print a goodbye message to the console.
     """
     print("Goodbye, World!")
 
 
-def main():
+def main() -> None:
     """
     Main function that executes the program workflow.
     Calls the greeting and goodbye functions in sequence.
