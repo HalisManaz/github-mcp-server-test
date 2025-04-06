@@ -33,4 +33,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    # Execute the main function when the script is run directly
     main()
