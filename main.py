@@ -1,6 +1,3 @@
-from typing import List
-
-
 def say_hello_world() -> None:
     """
     Print a hello world greeting to the console.
