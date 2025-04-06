@@ -6,5 +6,10 @@ def say_hello_to(name):
     print(f"Hello, {name}!")
 
 
-say_hello_world()
-say_hello_to("John")
+def main():
+    say_hello_world()
+    say_hello_to("John")
+
+
+if __name__ == "__main__":
+    main()
